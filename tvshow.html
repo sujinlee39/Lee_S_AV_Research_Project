@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>AV Research Project</title>
+</head>
+<body>
+    <main class="app">
+        <div class="back"><a href="index.html"><img class="icon" src="images/arrow_icon.svg" alt="arrow"></a></div>
+        <section>
+            <video id="friends" class="video" data-able-player preload="auto">
+                <source type="video/webm" src="assets/friends.webm" data-desc-src="assets/friends.webm"/>
+                <source type="video/mp4" src="assets/friends.mp4" data-desc-src="assets/friends.mp4"/>
+            </video>
+            <button onClick="document.getElementById('friends').play(); return false;">Play</button>
+            <button onClick="document.getElementById('friends').pause(); return false;">Pause</button>
+            <h2 class="text">Friends</h2>
+            <h3 class="text">★★★★☆ 4.5</h3>
+            <p class="text">Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.</p>
+        </section>
+    </main>
+</body>
+<script type="module" src="js/main.js"></script>
+</html>
