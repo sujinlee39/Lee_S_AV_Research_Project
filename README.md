@@ -5,4 +5,4 @@ To view and listen Movies and Musics simple way.
 # Tools
 - HTML
 - CSS(SASS)
-_ Javascript
+- Javascript
